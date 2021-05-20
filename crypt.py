@@ -1,8 +1,6 @@
 import pyAesCrypt
 import os
 
-from requests import status_codes
-
 def encrypt(data, key, method):
     import requests as r
     enc = r.get(f"https://api.vaar.pp.ua/crypt/?data={data}&key={key}&method={method}&mode=e")
