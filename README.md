@@ -1,7 +1,6 @@
 # Cryptor
 
-ShowIP is a Python tool that shows your IP and the DNS server you use.
-You can also view information about any IP address or domain.
+Cryptor is a Python tool that can encrypt(decrypt) text/file or hide text in PNG.
 
 ## Installation
 
