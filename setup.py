@@ -1,6 +1,6 @@
 from setuptools import setup
 
-NAME = "Cryptor"
+NAME = "Crypt"
 DESCRIPTION = "Encrypt text or file"
 URL = "https://github.com/varvaruk-v/Crypt-file"
 EMAIL = ""
