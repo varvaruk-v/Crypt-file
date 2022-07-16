@@ -29,7 +29,7 @@ setup(
     url=URL,
     packages=["cryptor"],
     entry_points={
-        "console_scripts": ["cryptor=cryptor.cli:main"]
+        "console_scripts": ["crypt=crypt.cli:main"]
     },
     install_requires=REQUIRED,
     license="MIT",
