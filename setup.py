@@ -27,7 +27,7 @@ setup(
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    packages=["crypttool"],
+    packages=["cryptortool"],
     entry_points={
         "console_scripts": ["cryptor=cryptortool.cli:main"]
     },
