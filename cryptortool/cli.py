@@ -1,7 +1,7 @@
 try:
-    from crypttool.crypttool import Cryptor
+    from cryptortool.cryptortool import Cryptor
 except ModuleNotFoundError:
-    from crypttool import Cryptor
+    from cryptortool import Cryptor
 def logo():
     import os
     os.system('cls||clear')

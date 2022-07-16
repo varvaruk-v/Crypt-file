@@ -1,6 +1,6 @@
 from setuptools import setup
 
-NAME = "Crypttool"
+NAME = "Cryptortool"
 DESCRIPTION = "Encrypt text or file"
 URL = "https://github.com/varvaruk-v/Crypt-file"
 EMAIL = ""
@@ -29,7 +29,7 @@ setup(
     url=URL,
     packages=["crypttool"],
     entry_points={
-        "console_scripts": ["crypttool=crypttool.cli:main"]
+        "console_scripts": ["cryptor=cryptortool.cli:main"]
     },
     install_requires=REQUIRED,
     license="MIT",
