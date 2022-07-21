@@ -6,7 +6,7 @@ URL = "https://github.com/varvaruk-v/Crypt-file"
 EMAIL = ""
 AUTHOR = "Viktor Varvaruk"
 REQUIRES_PYTHON = ">=3.7.0"
-VERSION = "1.5.5"
+VERSION = "1.5.6"
 
 with open("requirements.txt", encoding="utf-8") as f:
     REQUIRED = f.readlines()
@@ -29,7 +29,7 @@ setup(
     url=URL,
     packages=["cryptortool"],
     entry_points={
-        "console_scripts": ["cryptor=cryptortool.cli:main", "cryptortool=cryptortool.cli:main", "hash=cryptortool.hash:main"]
+        "console_scripts": ["cryptor=cryptortool.cli:main", "cryptortool=cryptortool.cli:main", "hash=cryptortool.hash:main", "chash=cryptortool.hash:main"]
     },
     install_requires=REQUIRED,
     license="MIT",
