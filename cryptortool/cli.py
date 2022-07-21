@@ -7,7 +7,7 @@ def logo():
     os.system('cls||clear')
     print("""                                                                    
                                                                                                                                                                                                         
-           ```````                                                    ```                         v.1.5.0      
+           ```````                                                    ```                         v.1.5.5      
         .ohdmNNNmdy/`                                                sddd`                              
       `sMMMMMNNNMMMMm:   ```  ````  ````     `````  ```   ````     `-MMMM.``     ```````      ````  ``` 
       sMMMMm:``.+MMMMN. -mmmh/dMMd -mmmmy   `dmmmo ommmoodNMMNh:  /mNMMMMmmy   :ydNMMMNdy:   `mmmd/dNMN 
