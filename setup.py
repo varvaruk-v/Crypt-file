@@ -29,7 +29,7 @@ setup(
     url=URL,
     packages=["cryptortool"],
     entry_points={
-        "console_scripts": ["cryptor=cryptortool.cli:main", "cryptortool=cryptortool.cli:main"]
+        "console_scripts": ["cryptor=cryptortool.cli:main", "cryptortool=cryptortool.cli:main", "hash=cryptortool.hash:main"]
     },
     install_requires=REQUIRED,
     license="MIT",
